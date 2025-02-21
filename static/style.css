@@ -1,0 +1,166 @@
+    body{
+            padding: 50px;
+            background: radial-gradient(circle, #c2935d, #a94b99);
+            font-family: "Poppins", serif;
+            font-weight: 500;
+            font-style: normal;
+            color: #1e041a;
+    }
+    h1{
+        padding-bottom: 30px;
+        font-size: 50px;
+        padding-left: 80px;
+    }
+    h2{
+        padding-bottom: 10px;
+    }
+      
+    .custom-nav-link {
+        align-items: center;
+        color: black !important;
+        background-color: #f2bd89;
+        padding: 10px 15px;
+        margin: 20px 50px;
+        border-radius: 10px;
+        font-size: 15px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        text-decoration: none;
+    }
+    .custom-nav-link:hover {
+        background-color: #da9f57 !important;
+        color: black !important;
+    }
+    .custom-nav-link.active {
+        background-color: #7c2c6e !important;
+        color: white !important;
+    }
+    .custom-select {
+        background-color: #f1d4b7;  
+        color: black;  
+        border: 2px solid #d9a96e;
+        border-radius: 8px;
+        padding: 8px;
+        font-size: 15px;
+        font-weight: bold;
+        transition: background-color 0.3s ease, border-color 0.3s ease;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; /* Ensures even spacing */
+        gap: 20px; /* Space between rows */
+    }
+
+    .col-md-4 {
+        flex: 1 1 calc(33.33% - 20px); /* Ensures 3 cards per row with spacing */
+        max-width: calc(33.33% - 20px);
+        box-sizing: border-box;
+    }
+
+    .song-card {
+        background: #8a6081; /* Deep plum */
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        text-align: center;
+        transition: transform 0.3s ease-in-out;
+        padding-bottom: 15px;
+    }
+
+    .song-card:hover {
+        transform: scale(1.05);
+    }
+
+    .song-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #ffdf85;
+    }
+
+    .card-text {
+        font-size: 1rem;
+        color: #f2f2f2;
+        margin-bottom: 5px;
+    }
+
+    .btn-primary {
+        background: #c2935d;
+        border: none;
+        font-weight: bold;
+        padding: 8px 12px;
+        border-radius: 5px;
+    }
+
+    .btn-primary:hover {
+        background: #b17d48;
+    }
+    
+    .songs-container {
+        max-height: 80px;
+        overflow-y: auto;
+        border: 2px solid #d9196e;
+        border-radius: 10px;
+        padding: 10px;
+        background: #f2d0b2;
+    }
+
+    /* Makes songs list look interactive */
+    .song-item {
+        padding: 10px;
+        border-bottom: 1px solid;
+        transition: background-color 0.3s ease-in-out;
+        color: #333;
+        background-color: #b193bc;
+    }
+
+    .song-item:hover {
+        background-color: #f8f9fa;
+        color: #007bff;
+        cursor: pointer;
+    }
+
+    .song-item.active {
+        background-color: #9d5890;
+        color: white;
+    }
+
+    .custom-btn {
+       background: #c2935d;
+       color: white;
+       background: #c2935d;
+       border: none;
+       padding: 10px 20px;
+       border-radius: 8px;
+       font-weight: bold;
+    }
+
+    .custom-btn:disabled {
+        background: #b17d48;
+        opacity: 0.7;
+    }
+
+    @media (max-width: 992px) {
+        .col-md-4 {
+            flex: 1 1 calc(50% - 20px); /* 2 columns on tablets */
+            max-width: calc(50% - 20px);
+        }
+    }
+
+    @media (max-width: 600px) {
+        .col-md-4 {
+            flex: 1 1 100%; /* 1 column on mobile */
+            max-width: 100%;
+        }
+    }
