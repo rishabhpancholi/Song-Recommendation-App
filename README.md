@@ -8,5 +8,4 @@ This is a song recommendation system that suggests similar songs based on lyrics
 - Mood-based song recommendations using K-Means Clustering
 - Fetches song details from the Spotify API
 
-## 📂 Folder Structure
 
