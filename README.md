@@ -1,7 +1,7 @@
 # 🎵 ListenIt!-Song Recommendation App using Flask on Railway
 
 ## 📌 Overview
-This is a song recommendation system that suggests similar songs based on lyrics, artists, and audio features.
+This is a song recommendation system that suggests similar songs based on lyrics and audio features.
 
 ## ⚡ Features
 - Song-based recommendations using Word2Vec + Cosine Similarity
