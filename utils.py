@@ -1,17 +1,6 @@
 import pandas as pd
 
 def get_recommendations(song_name, songs_df, similarity):
-    """
-    Generate song recommendations based on cosine similarity.
-
-    Parameters:
-    - song_name (str): The name of the song for which recommendations are needed.
-    - songs_df (pd.DataFrame): DataFrame containing song details.
-    - similarity (numpy.ndarray): Precomputed similarity matrix.
-
-    Returns:
-    - list: A list of dictionaries containing recommended songs and their similarity scores.
-    """
 
     # Get the index of the song from the DataFrame
     index = songs_df[songs_df['track_name'] == song_name].index[0]
