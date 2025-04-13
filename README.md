@@ -55,8 +55,8 @@ The application will be live at `http://127.0.0.1:5000/`
 
 ## 📷 Screenshots
 ![image](Song-1.png) 
-![image](https://github.com/user-attachments/assets/7e80dc2d-2712-4da8-9b56-0307ba56a451)
-![image](https://github.com/user-attachments/assets/7e80dc2d-2712-4da8-9b56-0307ba56a451)
+![image](Song-2.png)
+![image](Song-3.png)
 
 ## 🤝 Contributing
 Feel free to open issues or contribute by submitting pull requests!
