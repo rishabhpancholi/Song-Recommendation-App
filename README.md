@@ -1,4 +1,4 @@
-# 🎵 Song Recommendation Engine
+# 🎵 ListenIt! - Song Recommendation App
 
 🚀 **Song Recommendation Engine** is a web application that helps users discover songs tailored to their taste. The model combines **content-based filtering** and **clustering** techniques to offer personalized music recommendations based on genres, mood, and audio features.
 
