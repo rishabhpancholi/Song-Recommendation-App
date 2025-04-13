@@ -48,6 +48,7 @@ pip install -r requirements.txt
 
 # Run the Flask app
 python app.py
+```
 
 The application will be live at `http://127.0.0.1:5000/`
 
