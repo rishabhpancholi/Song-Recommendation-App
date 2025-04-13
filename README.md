@@ -1,12 +1,9 @@
-# 🎵 ListenIt!-Song Recommendation App using Flask 
+# 🎵 Song Recommendation Engine
 
-## 📌 Overview
-This is a song recommendation system that suggests similar songs based on lyrics and audio features.
+🚀 **Song Recommendation Engine** is a web application that helps users discover songs tailored to their taste. The model combines **content-based filtering** and **clustering** techniques to offer personalized music recommendations based on genres, mood, and audio features.
 
-## ⚡ Features
-- Song-based recommendations using Word2Vec + Cosine Similarity
-- Mood-based song recommendations using K-Means Clustering
+🔗 **Live Demo:** [Song Recommendation Engine](https://listenit.onrender.com/recommendation)
 
-  Link to the app - https://listenit.onrender.com
+---
 
 
