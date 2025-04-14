@@ -28,7 +28,7 @@
 
 - **Backend:** Flask, Python  
 - **Frontend:** HTML, CSS, Bootstrap  
-- **ML Models:**  
+- **DL Models:**  
   - Content-Based Filtering using song metadata & lyrics  
   - Clustering using audio features (e.g., KMeans)  
 - **Data Source:** Songs dataset with Spotify audio features  
