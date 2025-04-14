@@ -40,8 +40,8 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/Song-Recommendation-Engine.git
-cd Song-Recommendation-Engine
+git clone https://github.com/rishabhpancholi/Song-Recommendation-App.git
+cd Song-Recommendation-App
 
 # Install dependencies
 pip install -r requirements.txt
