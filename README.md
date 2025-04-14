@@ -28,8 +28,8 @@
 
 - **Backend:** Flask, Python  
 - **Frontend:** HTML, CSS, Bootstrap  
-- **DL Models:**  
-  - Content-Based Filtering using song metadata & lyrics  
+- **DL and ML Models:**  
+  - Content-Based Filtering using song metadata & lyrics using Word2Vec Embeddings.
   - Clustering using audio features (e.g., KMeans)  
 - **Data Source:** Songs dataset with Spotify audio features  
 - **Deployment:** Render
