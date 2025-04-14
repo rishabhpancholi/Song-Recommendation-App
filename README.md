@@ -9,7 +9,7 @@
 ## 🌟 Features
 
 - 🎧 **Top 50 Popular Songs**  
-  Browse the most popular tracks across genres. Easily **filter by genre** or **sort alphabetically**.
+  Browse the most popular tracks across genres. Easily **filter by genre**
 
 - 🔍 **Song-Based Recommendations**  
   Select a song to view the **top 10 similar songs** using content-based filtering.  
